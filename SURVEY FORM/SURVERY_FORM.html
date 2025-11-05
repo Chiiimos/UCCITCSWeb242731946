@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <title>Survey Form</title>
+      </head>
+      <body>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Please Fill Out your Form Here</p>
+        <form id="survey-form">
+        <fieldset>
+            <label id="name-label" for="">Fill out your Full Name<input id="name" type="text" placeholder="Enter Name" value="" required></label>
+            <label id="email-label" for="">Email Address <input id="email" type="email" placeholder="@gmail.con" value="" required></label>
+            <label id="number-label" for="">Phone Number<input id="number" type="number" placeholder="123" value="" min="0" max="11"></label>
+              <select id="dropdown">
+                <option value="0">(Gender)</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+                <option value="3">Others</option>
+            </select>
+        </fieldset>
+        <fieldset>
+          <legend>Work Experience</legend>
+          <label for="Worked"><input name="Work_EXP" type="radio" value="Experience" checked>5 to 10 years</label>
+          <label for="No-worked"><input name="Work_EXP" type="radio" value="No_Experience" >No Experience</label>
+        </fieldset>
+        <fieldset>
+          <legend>WORK STUFF</legend>
+          <label for="type"><input value="printOP" type="checkbox">Printer Operator</label>
+          <label for="type"><input value="GD" type="checkbox">Graphic Designer</label>
+          <label for="type"><input value="TP" type="checkbox">T-Shirt Printing</label>
+          <label for="type"><input value="ETC" type="checkbox">Etc</label>
+              <label for="bio">
+                provide a Bio:<textarea name="bio" placeholder="I love Chickens"></textarea>
+              </label>
+        </fieldset>
+            <input id="submit" type="submit" value="submit">
+        </form>
+      </body>
+    </html>
