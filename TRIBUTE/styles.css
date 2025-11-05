@@ -1,0 +1,14 @@
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    letter-spacing: .1cap;
+}
+img{
+    display: block;
+    margin-left: 55%;
+    border-radius: 50%;
+    height: 250px;
+    width: 300px;
+    filter: grayscale(80%);
+}
+
