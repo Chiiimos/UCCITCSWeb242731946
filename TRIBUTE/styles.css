@@ -1,15 +1,28 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
+    background-color: #1a1a1a;
 }
 h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Arial Black', Gadget, sans-serif;
     text-align: center;
     letter-spacing: .2cap;
     color: white;
-    text-shadow: 4px 4px 10px #000000;
+    text-shadow: 5px 5px 10px #000000;
     margin-top: 20px;   
     margin-bottom: 10px;
 }
-h1, hr, fieldset, div{
+h2{
+    font-family: 'Arial Black', Gadget, sans-serif;
+    text-align: center;
+    letter-spacing: .1cap;
+    color: white;
+    text-shadow: 5px 5px 10px #000000;
+    margin-top: -10px;   
+    margin-bottom: 10px;
+}
+h1, h2, hr, fieldset, div{
     isolation: isolate;
 }
 img{
@@ -48,6 +61,7 @@ h3{
 }
 fieldset{
     width: 590px;
+    height:100%;
     margin: auto;
     padding: 2rem;
     background-color: black;
@@ -80,7 +94,11 @@ section::before{
     border-radius: 10px;
     margin: auto;
 }
-ol.first{
+ul.first{
+    color: white;
+    font-family: Arial, sans-serif;
+}
+ul.second{
     color: white;
     font-family: Arial, sans-serif;
 }
