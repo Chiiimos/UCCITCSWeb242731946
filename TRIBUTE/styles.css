@@ -9,25 +9,17 @@ img{
     height: 250px;
     filter: grayscale(100%);
 }
-.message{
-    background-color: black;
-    border-color: black;
-    border-width: 1px;
-    width: 635px;
-    margin: auto;
-    color: white;
-    text-align: center;
-}
 hr{
+    width: 660px;
     height: 2px;
     border-color: black;
     background-color: black;
 }
 .message3{
     display: flex;
-    justify-content: center; /* centers boxes horizontally */
-    align-items: flex-start;  /* aligns boxes to the top */
-    gap: 30px;                /* space between boxes */
+    justify-content: center; 
+    align-items: flex-start;  
+    gap: 30px;            
     margin-top: 10px;
 }
 .box{
@@ -39,4 +31,28 @@ h3{
     color: white;
     text-align: center;
     margin-top: 5px;
+}
+.Main{
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;            
+}
+.Message1{
+    background-color: black;
+    width: 657px;
+    
+}
+section{
+
+}
+section::before{
+
+}
+fieldset{
+    width: 590px;
+    margin: auto;
+    padding: 2rem;
+    background-color: black;
+    color: white;
+    text-align: justify;
 }
