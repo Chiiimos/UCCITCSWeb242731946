@@ -5,42 +5,38 @@ h1{
 }
 img{
     display: block;
-    margin-left: 55%;
-    border-radius: 50%;
+    margin-left: 61.5%;
     height: 250px;
-    width: 300px;
-    filter: grayscale(80%);
+    filter: grayscale(100%);
 }
-fieldset{
+.message{
     background-color: black;
     border-color: black;
     border-width: 1px;
-}
-.message{
+    width: 635px;
+    margin: auto;
     color: white;
+    text-align: center;
 }
 hr{
     height: 2px;
     border-color: black;
     background-color: black;
 }
-.message2{
-    width: 150px;
-    height: 300px;
-}
 .message3{
     display: flex;
     justify-content: center; /* centers boxes horizontally */
     align-items: flex-start;  /* aligns boxes to the top */
-    gap: 20px;                /* space between boxes */
-    margin-top: 50px;
+    gap: 30px;                /* space between boxes */
+    margin-top: 10px;
 }
 .box{
     background-color: black;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 300px;
 }
 h3{
     color: white;
     text-align: center;
+    margin-top: 5px;
 }
