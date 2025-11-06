@@ -1,19 +1,21 @@
 body{
-    background-image: url(360_F_509854035_W21rTwRsVVAgNq9djRvaqiUSciX1px8K.jpg);
-    background-attachment: fixed;
-    background-size: cover; 
-    background-repeat: no-repeat
 }
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
-    letter-spacing: .1cap;
+    letter-spacing: .2cap;
+    color: white;
+    text-shadow: 4px 4px 10px #000000;
+    margin-top: 20px;   
+    margin-bottom: 10px;
+}
+h1, hr, fieldset, div{
+    isolation: isolate;
 }
 img{
     display: block;
     margin-left: 61.5%;
     height: 250px;
-    filter: grayscale(100%);
 }
 hr{
     width: 660px;
@@ -30,6 +32,7 @@ hr{
 }
 .box{
     background-color: black;
+    border: white 1px solid;
     width: 200px;
     height: 300px;
 }
@@ -43,21 +46,42 @@ h3{
     justify-content: center; 
     align-items: flex-start;            
 }
-.Message1{
-    background-color: black;
-    width: 657px;
-    
-}
-section{
-}
-section::before{
-
-}
 fieldset{
     width: 590px;
     margin: auto;
     padding: 2rem;
     background-color: black;
+}
+h3.message1{
     color: white;
+    font-family: Arial, sans-serif;
     text-align: justify;
+}
+section{
+    position: relative;
+    width: 75cap;
+    height: 100vh;
+    margin-top: 20px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+section::before{
+    background-image: url(360_F_509854035_W21rTwRsVVAgNq9djRvaqiUSciX1px8K.jpg);
+    content: '';
+    background-attachment: fixed;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    position: absolute;
+    inset: 0;
+    opacity: 60%;
+}
+.image{
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: auto;
+}
+ol.first{
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: ;
 }
