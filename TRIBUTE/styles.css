@@ -11,4 +11,36 @@ img{
     width: 300px;
     filter: grayscale(80%);
 }
-
+fieldset{
+    background-color: black;
+    border-color: black;
+    border-width: 1px;
+}
+.message{
+    color: white;
+}
+hr{
+    height: 2px;
+    border-color: black;
+    background-color: black;
+}
+.message2{
+    width: 150px;
+    height: 300px;
+}
+.message3{
+    display: flex;
+    justify-content: center; /* centers boxes horizontally */
+    align-items: flex-start;  /* aligns boxes to the top */
+    gap: 20px;                /* space between boxes */
+    margin-top: 50px;
+}
+.box{
+    background-color: black;
+    width: 150px;
+    height: 150px;
+}
+h3{
+    color: white;
+    text-align: center;
+}
