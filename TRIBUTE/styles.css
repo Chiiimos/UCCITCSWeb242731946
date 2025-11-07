@@ -55,7 +55,7 @@ h1, h2, hr, fieldset, div{
 .container{
     max-width: 900px;
     text-align: center;
-    background: rgba(0, 0, 0, 0.6); /* adds a soft overlay */
+    background: rgba(0, 0, 0, 0.6);
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.1)
@@ -69,6 +69,8 @@ hr{
     height: 2px;
     border-color: black;
     background-color: black;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
 }
 .box{
     background-color: black;
@@ -109,4 +111,9 @@ hr{
   .top-nav ul {
     flex-direction: column;
   }
+}
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2em;
 }
