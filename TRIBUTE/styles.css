@@ -2,103 +2,109 @@ html{
     scroll-behavior: smooth;
 }
 body{
+    margin: 0;
+    padding: 0;
     background-color: #1a1a1a;
-}
-h1{
-    font-family: 'Arial Black', Gadget, sans-serif;
-    text-align: center;
-    letter-spacing: .2cap;
     color: white;
-    text-shadow: 5px 5px 10px #000000;
-    margin-top: 20px;   
-    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-h2{
-    font-family: 'Arial Black', Gadget, sans-serif;
+header.hero{
     text-align: center;
-    letter-spacing: .1cap;
+    padding: 60px 20px; 
+    background-image: url(360_F_509854035_W21rTwRsVVAgNq9djRvaqiUSciX1px8K.jpg);
+    position: relative;
+}
+header.hero h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    margin: 0;
+    text-shadow: 5px 5px 10px black;
+}
+header.hero h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin: 10px 0 0;
+    text-shadow: 5px 5px 10px black;
+}
+.top-nav{
+    background-color: #111;
+    text-align: center;
+    padding: 10px 0
+}
+.top-nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 200px;  
+}
+.top-nav a{
     color: white;
-    text-shadow: 5px 5px 10px #000000;
-    margin-top: -10px;   
-    margin-bottom: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.dark-bg{
+    background-color: #111;
 }
 h1, h2, hr, fieldset, div{
     isolation: isolate;
 }
-img{
-    display: block;
-    margin-left: 61.5%;
-    height: 250px;
+.container{
+    max-width: 900px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6); /* adds a soft overlay */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1)
+}
+.container2{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 hr{
-    width: 660px;
     height: 2px;
     border-color: black;
     background-color: black;
 }
-.message3{
-    display: flex;
-    justify-content: center; 
-    align-items: flex-start;  
-    gap: 30px;            
-    margin-top: 10px;
-}
 .box{
     background-color: black;
     border: white 1px solid;
-    width: 200px;
+    padding: 20px;
+    flex: 1 1 250px;
     height: 300px;
 }
-h3{
-    color: white;
+.box h3{
     text-align: center;
-    margin-top: 5px;
+    margin-top: auto;
 }
-.Main{
-    display: flex;
-    justify-content: center; 
-    align-items: flex-start;            
-}
-fieldset{
-    width: 590px;
-    height:100%;
-    margin: auto;
-    padding: 2rem;
-    background-color: black;
-}
-h3.message1{
-    color: white;
-    font-family: Arial, sans-serif;
-    text-align: justify;
-}
-section{
-    position: relative;
-    width: 75cap;
-    height: 100vh;
-    margin-top: 20px;
-    overflow: hidden;
-    margin: 0 auto;
-}
-section::before{
-    background-image: url(360_F_509854035_W21rTwRsVVAgNq9djRvaqiUSciX1px8K.jpg);
-    content: '';
-    background-attachment: fixed;
-    background-size: cover; 
-    background-repeat: no-repeat;
-    position: absolute;
-    inset: 0;
-    opacity: 60%;
+.Sections2{
+    padding: 60px 20px;
 }
 .image{
-    border: 5px solid white;
-    border-radius: 10px;
-    margin: auto;
+   border: 3px solid white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    height: auto;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-ul.first{
-    color: white;
-    font-family: Arial, sans-serif;
+.text p{
+    line-height: 1.6;
+    text-align: justify;
 }
-ul.second{
-    color: white;
-    font-family: Arial, sans-serif;
+.dark-bg{
+    background-color: #111;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 600px) {
+  .top-nav ul {
+    flex-direction: column;
+  }
 }
